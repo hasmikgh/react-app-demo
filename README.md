@@ -31,17 +31,6 @@ npm run build
 - [webpack](https://webpack.js.org/)
 - [Babel](https://babeljs.io/)
 - [Sass](https://sass-lang.com/)
-> Note: Install [http-server](https://www.npmjs.com/package/http-server) globally to deploy a simple server.
-
-```bash
-npm i -g http-server
-```
-
-You can view the deploy by creating a server in `dist`.
-
-```bash
-cd dist && http-server
-```
 - [PostCSS](https://postcss.org/)
 
 ## Dependencies
