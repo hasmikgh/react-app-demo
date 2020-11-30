@@ -33,6 +33,14 @@ npm run build
 
 ## Dependencies
 
+### react/redux
+
+- [`reactjs`](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [`reac bootstrap`](https://react-bootstrap.github.io/) - Reusable components build with react
+- [`reduxjs`](https://redux.js.org/) - A Predictable State Container for JS Apps
+- [`redux saga`](https://redux-saga.js.org/) - Library that aims to make application side effects
+                                       
+
 ### webpack
 
 - [`webpack`](https://github.com/webpack/webpack) - Module and asset bundler.
