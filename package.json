@@ -1,0 +1,43 @@
+{
+  "name": "react-app-demo",
+  "version": "1.0.0",
+  "description": "Small react application",
+  "main": "index.js",
+  "author": "Hasmik Ghazaryan",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "keywords": [
+    "webpack",
+    "webpack 5"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "html-webpack-plugin": "^5.0.0-alpha.7",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hasmikgh/react-app-demo.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux-saga": "^1.1.3"
+  }
+}

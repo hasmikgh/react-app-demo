@@ -1,0 +1,67 @@
+{
+  "countries": [
+    {
+      "name": "",
+      "cities": []
+    },
+    {
+      "name": "Armenia",
+      "cities": ["Yerevan", "Sevan"]
+    },
+    {
+      "name": "Russia",
+      "cities": ["Nytva","Lyalichi", "Moscow" ]
+    },
+    {
+      "name": "China",
+      "cities": ["Damaying", "Jinzhuang", "Kanshi", "Changfeng" ]
+    },
+    {
+      "name": "Japan",
+      "cities": ["Hirakata", "Jinzhuang", "Kanshi" ]
+    },
+    {
+      "name": "Norway",
+      "cities": ["Drammen"]
+    },
+    {
+      "name": "Uganda",
+      "cities": ["Entebbe"]
+    },
+    {
+      "name": "Egypt",
+      "cities": ["Isnā", "Dishnā"]
+    },
+    {
+      "name": "Nigeria",
+      "cities": ["Gusau"]
+    },
+    {
+      "name": "Portugal",
+      "cities": ["Foros de Salvaterra", "Ortiga"]
+    },
+    {
+      "name": "Finland",
+      "cities": ["Varkaus"]
+    },
+    {
+      "name": "Honduras",
+      "cities": ["Marale"]
+    },
+    {
+      "name": "Indonesia",
+      "cities": ["Nobo"]
+    }
+  ],
+  "departments": ["","Marketing", "Support", "Marketing",
+    "Human Resources", "Product Management",
+    "Services", "Legal","Accounting", "Sales"],
+  "jobTitles": ["","Analog Circuit Design manager", "Web Designer II", "Health Coach II",
+    "Senior Editor", "Nuclear Power Engineer", "Account Coordinator",
+    "Geological Engineer", "Recruiting Manager", "Speech Pathologist",
+    "Account Representative IV", "Research Nurse", "Systems Administrator III",
+    "Help Desk Technician", "Senior Developer", "Engineer IV",
+    "Computer Systems Analyst IV", "Safety Technician I",
+    "Design Engineer", "Programmer I" ,"Compensation Analyst"
+  ]
+}
