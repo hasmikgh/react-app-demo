@@ -10,8 +10,6 @@ Clone this repo and npm install.
 npm i
 ```
 
-## Usage
-
 ### Development server
 
 ```bash
@@ -26,12 +24,7 @@ You can view the development server at `localhost:8080`.
 npm run build
 ```
 
-## Features
-
-- [webpack](https://webpack.js.org/)
-- [Babel](https://babeljs.io/)
-
-## Dependencies
+## What used during development
 
 ### react/redux
 
