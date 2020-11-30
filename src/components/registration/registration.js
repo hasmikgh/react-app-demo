@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Form, Container, Row, Jumbotron, Button } from 'react-bootstrap';
 import { useDispatch, useSelector } from "react-redux";
 import FistStep from "./fistStep";
@@ -17,7 +17,6 @@ const Registration = () => {
 	};
 
 	useEffect(() => {
-		console.log("use effect one time");
 		dispatch({type: actions.get.registrationData});
 	}, []);
 

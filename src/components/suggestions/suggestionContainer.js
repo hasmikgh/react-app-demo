@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Button, Container, Jumbotron, Row, Col, ListGroup } from "react-bootstrap";
+import { Button, Container, Jumbotron, Row, Col } from "react-bootstrap";
 import history from './../history';
 import * as actions from "../../actions/actions";
 import { useDispatch, useSelector } from "react-redux";
@@ -36,7 +36,6 @@ const SuggestionContainer = () => {
 	};
 
 	const byOptions = profileSuggestions.length ? suggestions : profileSuggestions;
-	console.log(profileSuggestions.length, suggestions);
 	return (
 		<Container>
 			<Row className="justify-content-md-center">
