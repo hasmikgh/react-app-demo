@@ -24,7 +24,7 @@ You can view the development server at `localhost:8080`.
 npm run build
 ```
 
-## What used during development
+## Frontend
 
 ### react/redux
 
