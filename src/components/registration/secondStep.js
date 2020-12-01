@@ -27,13 +27,11 @@ const SecondStep = () => {
 	};
 
 	useEffect(() => {
-		if (isCountrySelected || profile.country) {
-			const country = countries.filter((country) => {
-				return country.name === profile.country;
-			});
-			setCities(country[0].cities);
-		}
-	});
+		const country = countries.filter((country) => {
+			return country.name === profile.country;
+		});
+		setCities(country[0].cities);
+	}, [isCountrySelected, profile.country]);
 
 	return (
 		<>

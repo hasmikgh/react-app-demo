@@ -21,16 +21,11 @@ const SuggestionContainer = () => {
 		dispatch({ type: actions.SELECT_SUGGESTION, suggestion, suggestions });
 	};
 
-	const completeRegistration = () => {
+	const setProfileSuggestions = () => {
 		/*
 		* in future complete registration will additional actions
 		* besides updating suggestions
 		* */
-		dispatch({ type: actions.SET_PROFILE_SUGGESTIONS, suggestions });
-		history.push('/profile');
-	};
-
-	const updateProfileSuggestions = () => {
 		dispatch({ type: actions.SET_PROFILE_SUGGESTIONS, suggestions });
 		history.push('/profile');
 	};
@@ -54,17 +49,10 @@ const SuggestionContainer = () => {
 						}
 					</Row>
 					<p className="float-right">
-						{
-							profileSuggestions.length ?
-								<Button variant="primary"
-												onClick={() => updateProfileSuggestions()}>
-									Update Suggestions
-								</Button>:
-								<Button variant="primary"
-									onClick={() => completeRegistration()}>
-									Complete Registration
-								</Button>
-						}
+						<Button variant="primary"
+										onClick={() => setProfileSuggestions()}>
+							{profileSuggestions.length ? 'Update Suggestions' : 'Complete Registration'}
+						</Button>
 					</p>
 				</Jumbotron>
 			</Row>
