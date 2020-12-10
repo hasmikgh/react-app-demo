@@ -2,9 +2,11 @@ import React from "react";
 import { Form, Col } from 'react-bootstrap';
 import { useDispatch } from "react-redux";
 import { actions } from "../../actions/actions";
+import {useTranslation} from "react-i18next";
 
 const FistStep = (props) => {
 	const dispatch = useDispatch();
+	const { t } = useTranslation(['translation', 'lang']);
 	const { firstName, lastName, gender, email, password } = props;
 
 	const onChange = (event) => {
@@ -21,7 +23,7 @@ const FistStep = (props) => {
 			<>
 				<Form.Row>
 					<Form.Group as={Col} controlId="firstName">
-						<Form.Label>First Name</Form.Label>
+						<Form.Label>{t('lang:firstStep:firstName')}</Form.Label>
 						<Form.Control placeholder="Enter Name" value={firstName} onChange={(e) => onChange(e)}/>
 					</Form.Group>
 

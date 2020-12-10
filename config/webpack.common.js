@@ -24,6 +24,9 @@ module.exports = {
         }, {
           from: entry + '/json',
           to: 'json'
+        }, {
+          from: entry + '/locales',
+          to: 'locales'
         }
       ],
     }),

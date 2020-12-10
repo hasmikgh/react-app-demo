@@ -1,0 +1,17 @@
+{
+  "title": "hello",
+  "header": {
+    "title": "Welcome to React Application"
+  },
+  "home": {
+    "content": {
+      "text":  "Two step for personal data, and third one for suggestions"
+    }
+  },
+  "firstStep": {
+    "firstName": "First Name"
+  },
+  "profile": {
+    "welcome": "Welcome to your profile"
+  }
+}
